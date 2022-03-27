@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex: 9;
+    width: 100%;
+    flex-direction: column;
+    height: inherit;
+    border: 1px solid black;
+    max-height: 90vh;
+}
+
+.limitResults{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}

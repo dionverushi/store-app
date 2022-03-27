@@ -1,0 +1,22 @@
+.category {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 90vh;
+    border: 1px solid black;
+    flex: 3;
+    margin-right: 20px;
+    /* padding: 100px 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.category h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.category select{
+    padding: 20px;
+    font-size: 20px;
+}
